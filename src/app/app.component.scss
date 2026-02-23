@@ -12,6 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &--direction-column {
+      flex-direction: column;
+    }
   }
 
   &__image {
