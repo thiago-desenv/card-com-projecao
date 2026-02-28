@@ -1,10 +1,7 @@
 import { Directive } from '@angular/core';
 
 @Directive({
-  selector: '[appCardMainText]'
+  selector: 'app-card-main-text, [appCardMainText]',
+  host: { 'class': 'ca-c-card__main-text' }
 })
-export class CardMainTextDirective {
-
-  constructor() { }
-
-}
+export class CardMainTextDirective {}

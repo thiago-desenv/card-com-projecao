@@ -6,6 +6,7 @@ import { CardComponent } from './card/card.component';
 import { CardHeaderDirective } from './card/directives/base/card-header.directive';
 import { CardContentDirective } from './card/directives/base/card-content.directive';
 import { CardMainTextDirective } from './card/directives/texts/card-main-text.directive';
+import { CardSubTextDirective } from './card/directives/texts/card-sub-text.directive';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { CardMainTextDirective } from './card/directives/texts/card-main-text.di
     CardComponent,
     CardHeaderDirective,
     CardContentDirective,
-    CardMainTextDirective
+    CardMainTextDirective,
+    CardSubTextDirective
   ],
   imports: [
     BrowserModule
